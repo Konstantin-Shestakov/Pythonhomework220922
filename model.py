@@ -34,6 +34,7 @@ class Contact:
             return False, res
         else:
             print('Номер телефона не корректен')
+            
 
     def get_contact_value(self):
         return [self.name, self.surname, self.cell_number]
